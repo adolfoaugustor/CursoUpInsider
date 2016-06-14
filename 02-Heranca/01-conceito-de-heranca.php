@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Aulas tutoriais</title>
     </head>
-    <body>
+    <body> 
         <?php
         require('./inc/Config.inc.php');
         $pessoa = new Heranca('Adolfo Augusto R.', 26);

@@ -17,7 +17,7 @@ class Heranca {
         $this->Formacao[] = (string) $Cursos;
     } 
     function VerPessoa(){
-        $Formacao = implode(',', $this->Formacao);
+        $Formacao = implode(', ', $this->Formacao);
         echo "{$this->Nome} tem {$this->Idade} anos de idade, e é formado em: {$Formacao}.<hr>";
     }
 }
