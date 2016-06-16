@@ -6,8 +6,8 @@
     </head>
     <body> 
         <?php
-        include '/interface/IAluno.php';
-        //require('./interface/IAluno.php');
+        //include '/interface/IAluno.php';
+        require('./interface/IAluno.php');
         require('./inc/Config.inc.php');
         
         $aluno = new TrabalhoInterfaces('Adolfo Augusto', 'ADS');

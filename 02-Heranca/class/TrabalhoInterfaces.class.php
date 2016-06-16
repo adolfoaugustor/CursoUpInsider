@@ -8,7 +8,7 @@ class TrabalhoInterfaces implements IAluno{
 	function __construct($Aluno, $Curso){
 		$this->Aluno = $Aluno;
 		$this->Curso = $Curso;
-		$this->Formacao = arry();
+		$this->Formacao = array();
 	}
 
 	public function Matricular($Curso){

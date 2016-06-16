@@ -2,7 +2,7 @@
 
 interface IAluno {
 	
-	public function Matricula($Curso);
+	public function Matricular($Curso);
 	
 	public function Formar();
 }
