@@ -7,5 +7,32 @@
  */
 
 class AcessoProtegido {
+    public  $Nome;
 
+    function __construct($Nome, $Email){
+        $this->Nome = $Nome;
+        $this->setEmail($Email);
+    }
+
+    public function setEmail($Email){
+        if(!filter_var($Email, FILTER_VALIDATE_EMAIL)):
+            die('Email inválido!');
+        else:
+            $this->Email = $Email;
+        endif;
+    }
+
+    protected function setNome($Nome){
+        $this->Nome = $Nome;
+    }
+}
+
+class AcessoProtegidoFilha extends AcessoProtegido
+{
+    protected $CPF;
+
+    public function addCpf($Nome, $Cpf){
+        parent::setNome($Nome);
+        $this->CPF = $Cpf;
+    }
 }

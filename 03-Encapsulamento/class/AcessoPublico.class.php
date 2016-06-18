@@ -1,11 +1,20 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: swr2d2
- * Date: 16/06/2016
- * Time: 16:43
- */
 
 class AcessoPublico {
+    public  $Nome;
+    public  $Email;
 
+    function __construct($Nome, $Email)
+    {
+        $this->Nome = $Nome;
+        $this->setEmail($Email);
+    }
+
+    public function setEmail($Email){
+        if(!filter_var($Email, FILTER_VALIDATE_EMAIL)):
+            die('Email inválido!');
+        else:
+            $this->Email = $Email;
+        endif;
+    }
 }
