@@ -11,5 +11,20 @@
             $this->Valor = $Valor;
         }
 
+        public function getProduto()
+        {
+            return $this->Produto;
+        }
+
+        public function getNome()
+        {
+            return $this->Nome;
+        }
+
+        public function getValor()
+        {
+            return $this->Valor;
+        }
+
 
     }
