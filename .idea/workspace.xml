@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f4cc8f1-fba9-4d30-9e73-85c9e1403158" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-tratamento-de-erros/01-tipos-de-validacao.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-tratamento-de-erros/02-disparando-erros.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-tratamento-de-erros/03-lancando-exessoes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-tratamento-de-erros/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-tratamento-de-erros/04-personalizando-erros.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-tratamento-de-erros/_app/Config.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-tratamento-de-erros/03-lancando-exessoes.php" afterPath="$PROJECT_DIR$/05-tratamento-de-erros/03-lancando-exessoes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhpProject.iws" />
@@ -33,18 +32,7 @@
     <favorites_list name="PhpProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="03-lancando-exessoes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-tratamento-de-erros/03-lancando-exessoes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23859648" vertical-offset="0" max-vertical-offset="570">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,11 +61,13 @@
         <option value="$PROJECT_DIR$/04-Arquitetura-e-Conceito/class/ComposicaoEndereco.class.php" />
         <option value="$PROJECT_DIR$/04-Arquitetura-e-Conceito/class/ComposicaoUsuario.class.php" />
         <option value="$PROJECT_DIR$/05-tratamento-de-erros/css/reset.xsl" />
-        <option value="$PROJECT_DIR$/05-tratamento-de-erros/css/reset.css" />
         <option value="$PROJECT_DIR$/05-tratamento-de-erros/01-tipos-de-validacao.php" />
         <option value="$PROJECT_DIR$/05-tratamento-de-erros/02-disparand0-erros.php" />
         <option value="$PROJECT_DIR$/05-tratamento-de-erros/02-disparando-erros.php" />
         <option value="$PROJECT_DIR$/05-tratamento-de-erros/03-lancando-exessoes.php" />
+        <option value="$PROJECT_DIR$/05-tratamento-de-erros/inc/Config.inc.php" />
+        <option value="$PROJECT_DIR$/05-tratamento-de-erros/css/reset.css" />
+        <option value="$PROJECT_DIR$/05-tratamento-de-erros/04-personalizando-erros.php" />
       </list>
     </option>
   </component>
@@ -147,6 +137,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,41 +156,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="05-tratamento-de-erros" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="05-tratamento-de-erros" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -223,7 +181,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PhpProject\05-tratamento-de-erros" />
       <recent name="C:\xampp\htdocs\PhpProject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PhpProject\05-tratamento-de-erros\_app" />
     </key>
   </component>
   <component name="RunManager">
@@ -464,6 +426,7 @@
       <workItem from="1466533984799" duration="5988000" />
       <workItem from="1466613388828" duration="7529000" />
       <workItem from="1466623913745" duration="1915000" />
+      <workItem from="1466643315900" duration="5393000" />
     </task>
     <task id="LOCAL-00001" summary="teste commit pelo intelij">
       <created>1466107232177</created>
@@ -493,11 +456,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43528000" />
+    <option name="totallyTimeSpent" value="48921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -512,7 +475,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2591508" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2591508" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -558,6 +521,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/05-tratamento-de-erros/03-lancando-exessoes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04-Arquitetura-e-Conceito/03-modelo-de-agregacao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
@@ -865,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-tratamento-de-erros/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6123499" vertical-offset="0" max-vertical-offset="583">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-tratamento-de-erros/01-tipos-de-validacao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22456141" vertical-offset="994" max-vertical-offset="1853">
@@ -881,8 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05-tratamento-de-erros/02-disparando-erros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40350878" vertical-offset="433" max-vertical-offset="1275">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.16491228" vertical-offset="501" max-vertical-offset="1275">
+          <caret line="35" column="42" selection-start-line="34" selection-start-column="4" selection-end-line="35" selection-end-column="42" />
           <folding>
             <marker date="1466625858963" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
@@ -891,8 +855,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05-tratamento-de-erros/03-lancando-exessoes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23859648" vertical-offset="0" max-vertical-offset="570">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8350877" vertical-offset="0" max-vertical-offset="680">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-tratamento-de-erros/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6123499" vertical-offset="0" max-vertical-offset="583">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-tratamento-de-erros/04-personalizando-erros.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6263158" vertical-offset="0" max-vertical-offset="570">
+          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-tratamento-de-erros/_app/Config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.053859964" vertical-offset="344" max-vertical-offset="901">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding />
         </state>
       </provider>
